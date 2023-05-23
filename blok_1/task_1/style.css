@@ -1,0 +1,14 @@
+div.container {
+  text-align: center;
+}
+
+#colors {
+  display: flex;
+  justify-content: center;
+}
+
+.color-square {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}

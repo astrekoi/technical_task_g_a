@@ -1,0 +1,25 @@
+{
+  "name": "blok_2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "task_1": "node ./src/task_1.js",
+    "task_2": "ts-node ./src/task_2.ts",
+    "task_3": "ts-node ./src/task_3.ts",
+    "task_4": "node ./src/task_4.js && mocha ./src/tests/task_4_test.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.3",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22",
+    "sinon": "^15.1.0",
+    "supertest": "^6.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
